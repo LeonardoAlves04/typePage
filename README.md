@@ -1,4 +1,5 @@
 # Landing Page feita utilizando Typescript e Tailwind
+Atualmente estou tentando entrar no mundo dos freelas, então to dando uma treinada em landing pages, ecommerce's e outros tipos de página que me ajudem a conseguir algum freela.
 
 Deploy: 
 
