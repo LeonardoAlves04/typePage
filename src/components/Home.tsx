@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -10,10 +9,10 @@ const Home = () => {
         </div>
 
         <div className="max-w-2xl mt-60 ml-60">
-          <h1 className="text-5xl text-left font-bold font-mono">
+          <h1 className="text-5xl text-left font-bold">
             Nós alavancamos sua empresa junto com você!
           </h1>
-          <p className="mt-10 text-md">
+          <p className="mt-10 text-md ">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -21,8 +20,22 @@ const Home = () => {
             only five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged.
           </p>
-          <button className="bg-inherit text-white border-2 border-rose-600 text-grey p-3 rounded-md mt-10 ">
-            Fale com a gente
+          <button className="io-button mt-8">
+            Fale com a gente!
+            <div className="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path
+                  fill="currentColor"
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                ></path>
+              </svg>
+            </div>
           </button>
         </div>
       </div>

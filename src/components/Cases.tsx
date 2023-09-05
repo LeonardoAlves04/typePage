@@ -7,7 +7,7 @@ const Cases = () => {
         <div className="flex mt-20">
           <div className="flex flex-col ml-40">
             <div className="max-w-xl">
-              <div className="bg-indigo-500 text-white p-5 shadow-2xl rounded-lg mt-40">
+              <div className="zoom bg-indigo-500 text-white p-5 shadow-2xl rounded-lg mt-40">
                 <p>
                   s s Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -16,7 +16,7 @@ const Cases = () => {
                   specimen book.
                 </p>
               </div>
-              <div className="bg-indigo-600 text-white mt-10 p-5 shadow-2xl rounded-lg">
+              <div className="zoom bg-indigo-600 text-white mt-10 p-5 shadow-2xl rounded-lg">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -25,7 +25,7 @@ const Cases = () => {
                   specimen book.
                 </p>
               </div>
-              <div className="bg-indigo-700 text-white mt-10 p-5 shadow-2xl rounded-lg">
+              <div className="zoom bg-indigo-700 text-white mt-10 p-5 shadow-2xl rounded-lg">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -34,7 +34,7 @@ const Cases = () => {
                   specimen book.
                 </p>
               </div>
-              <div className="bg-indigo-800 text-white  mt-10 p-5 shadow-2xl rounded-lg mb-60">
+              <div className="zoom bg-indigo-800 text-white  mt-10 p-5 shadow-2xl rounded-lg mb-60">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's

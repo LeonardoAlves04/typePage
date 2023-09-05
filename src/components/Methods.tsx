@@ -9,7 +9,7 @@ const Methods = () => {
 
           <div className="m-auto max-w-4xl">
             <div className="flex">
-              <div className="p-5 shadow-2xl rounded-lg bg-white mr-5">
+              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-5">
                 <img
                   src="/assets/icone-1.png"
                   alt="company"
@@ -22,7 +22,7 @@ const Methods = () => {
                 </h1>
               </div>
 
-              <div className="p-5 shadow-2xl rounded-lg bg-white mr-5">
+              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-5">
                 <img
                   src="/assets/icone-2.png"
                   alt="company"
@@ -35,7 +35,7 @@ const Methods = () => {
                 </h1>
               </div>
 
-              <div className="p-5 shadow-2xl rounded-lg bg-white mr-5">
+              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-5">
                 <img
                   src="/assets/icone-3.png"
                   alt="company"
@@ -50,7 +50,7 @@ const Methods = () => {
             </div>
 
             <div className="flex mt-20">
-              <div className="p-5 shadow-2xl rounded-lg bg-white mr-5">
+              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-5">
                 <img
                   src="/assets/icone-4.png"
                   alt="company"
@@ -63,7 +63,7 @@ const Methods = () => {
                 </h1>
               </div>
 
-              <div className="p-5 shadow-2xl rounded-lg bg-white mr-5">
+              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-5">
                 <img
                   src="/assets/icone-5.png"
                   alt="company"
@@ -75,7 +75,7 @@ const Methods = () => {
                   standard dummy text ever since the 1500s.
                 </h1>
               </div>
-              <div className="p-5 shadow-2xl rounded-lg bg-white mr-5">
+              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-5">
                 <img
                   src="/assets/icone-4.png"
                   alt="company"
