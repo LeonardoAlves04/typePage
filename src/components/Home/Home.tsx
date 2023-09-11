@@ -5,16 +5,20 @@ import Contact from "../Contact/Contact";
 const Home = () => {
   return (
     <div>
-      <div className="bg-cyan-500 flex h-[53rem]">
+      <div className="bg-cyan-500 lg:flex h-[50rem] lg:h-[53rem]">
         <div>
-          <img src="/assets/foto-1.png" alt="logo" className="ml-60 mt-20" />
+          <img
+            src="/assets/foto-1.png"
+            alt="logo"
+            className="ml-10 lg:ml-60 lg:mt-20 h-[20rem] lg:h-[580px]"
+          />
         </div>
 
-        <div className="max-w-2xl mt-60 ml-60">
-          <h1 className="text-5xl text-left font-bold">
+        <div className="max-w-sm lg:max-w-2xl lg:mt-60 ml-0 lg:ml-60 ">
+          <h1 className="text-xl lg:text-5xl font-bold text-center lg:text-left mt-20 lg:mt-0">
             Nós alavancamos sua empresa junto com você!
           </h1>
-          <p className="mt-10 text-md ">
+          <p className=" mt-7 lg:mt-10 text-md text-center lg:text-left">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -23,7 +27,7 @@ const Home = () => {
             remaining essentially unchanged.
           </p>
 
-          <button className="io-button mt-8">
+          <button className="io-button mt-10 lg:mt-8 ml-20 lg:ml-0">
             Fale com a gente!
             <div className="icon">
               <svg

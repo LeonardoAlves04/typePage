@@ -1,18 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="bg-cyan-500 flex justify-between ">
+    <div className="bg-cyan-500 flex justify-between">
       <img
         src="/assets/logo.png"
         alt="logo"
-        className="sm:w-[5rem] sm:h-[1rem]"
+        className="p-0 lg:p-8 w-[4rem] h-[1rem] lg:w-40 lg:h-20 mt-[18px] lg:mt-[10px]"
       />
 
-      <div className="flex items-center ">
+      <div className="flex items-center">
         <a href="#cases" className="no-underline hover:underline">
-          <h2 className="mr-3 text-lg">Sobre</h2>
+          <h2 className="ml-3 lg:ml-0 mr-3 text-lg">Sobre</h2>
         </a>
         <a href="#methods" className="no-underline hover:underline">
           <h2 className="mr-3 text-lg">Produtos</h2>
@@ -25,7 +24,7 @@ const Header = () => {
         </a>
       </div>
 
-      <div className="flex justify-end items-center mr-[20px] space-x-3">
+      <div className="flex justify-end items-center mr-[20px] space-x-3 invisible lg:visible">
         <button className="cta mr-[20px]">
           <span>Cadastro</span>
         </button>
