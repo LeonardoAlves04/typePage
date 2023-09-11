@@ -45,9 +45,9 @@ const Home = () => {
 
       <a
         href="https://wa.me/5535991255868?text=Quero%20te%20contratar!KKKKKKKK"
-        className="fixed w-[60px] h-[60px] bottom-10 right-10 bg-green-500 rounded-full text-center shadow-2xl "
+        className="fixed w-[60px] h-[60px] bottom-10 right-10 bg-green-500 rounded-full text-center shadow-2xl"
       >
-        <img src="/assets/wpp.png" className="mt-[16px] m-auto" />
+        <img src="/assets/wpp.png" className="mt-[10px]" />
       </a>
     </div>
   );

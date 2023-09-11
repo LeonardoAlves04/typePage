@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="bg-cyan-500 flex justify-between ">
-      <img src="/assets/logo.png" alt="logo" className="p-10" />
+      <img
+        src="/assets/logo.png"
+        alt="logo"
+        className="sm:w-[5rem] sm:h-[1rem]"
+      />
 
       <div className="flex items-center ">
         <a href="#cases" className="no-underline hover:underline">

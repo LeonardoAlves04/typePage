@@ -14,10 +14,10 @@ const Examples = () => {
               <div className="px-6 py-8 sm:p-10 sm:pb-6">
                 <div className="grid items-center justify-center w-full grid-cols-1 text-left">
                   <div>
-                    <h2 className="text-lg font-medium tracking-tighter text-gray-600 lg:text-3xl">
+                    <h2 className="text-lg font-medium tracking-tighter text-gray-600 lg:text-3xl text-center">
                       Plano básico
                     </h2>
-                    <p className="mt-2 text-sm text-gray-500">
+                    <p className="mt-2 text-sm text-gray-500 text-center">
                       Perfeito para começar um negócio!
                     </p>
                   </div>
@@ -57,17 +57,17 @@ const Examples = () => {
               <div className="px-6 py-8 sm:p-10 sm:pb-6">
                 <div className="grid items-center justify-center w-full grid-cols-1 text-left">
                   <div>
-                    <h2 className="text-lg font-medium tracking-tighter text-gray-600 lg:text-3xl">
+                    <h2 className="text-lg font-medium tracking-tighter text-gray-600 lg:text-3xl text-center">
                       Plano avançado
                     </h2>
-                    <p className="mt-2 text-sm text-gray-500">
+                    <p className="mt-2 text-sm text-gray-500 text-center">
                       Para você que quer levar seu negócio a outro nivel!
                     </p>
                   </div>
                   <div className="text-sm mt-[25px]">
                     <p className="zoom">1 ano</p>
-                    <p className="zoom">Suporte personalizado</p>
                     <p className="zoom">Call's semanais</p>
+                    <p className="zoom">Suporte personalizado</p>
                     <p className="line-through">
                       Participar do programa de promoção
                     </p>
@@ -100,22 +100,25 @@ const Examples = () => {
               <div className="px-6 py-8 sm:p-10 sm:pb-6">
                 <div className="grid items-center justify-center w-full grid-cols-1 text-left">
                   <div>
-                    <h2 className="text-lg font-medium tracking-tighter text-gray-600 lg:text-3xl">
+                    <h2 className="text-lg font-medium tracking-tighter text-gray-600 lg:text-3xl text-center">
                       Plano premium -
-                      <span className="text-red-400">recomendado!</span>
+                      <span className="text-red-600 text-xl">
+                        {" "}
+                        (recomendado)
+                      </span>
                     </h2>
-                    <p className="mt-2 text-sm text-gray-500">
+                    <p className="mt-2 text-sm text-gray-500 text-center">
                       Sua empresa sendo uma das melhores!
                     </p>
                   </div>
-                  <div className="text-sm mt-[10px]">
+                  <div className="text-sm mt-[25px]">
                     <p className="zoom">Vitalício</p>
-                    <p className="zoom">Suporte personalizado</p>
                     <p className="zoom">Call's diárias</p>
+                    <p className="zoom">Suporte personalizado</p>
                     <p className="zoom">Participar do programa de promoção</p>
                     <p className="zoom">Networking com empresas parceiras</p>
                   </div>
-                  <div className="mt-[12px]">
+                  <div className="mt-[2rem]">
                     <p>
                       <span className="text-4xl font-light tracking-tight text-black">
                         R$150

@@ -3,6 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Contact from "./components/Contact/Contact";
+import Home from "./components/Home/Home";
+import Cases from "./components/Home/Cases";
+import Examples from "./components/Home/Examples";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
