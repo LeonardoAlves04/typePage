@@ -3,11 +3,15 @@ import ReactCountryFlags from "react-country-flag";
 
 const Footer = () => {
   return (
-    <div className="bg-cyan-500 h-[27rem]">
+    <div className="bg-cyan-500 lg:h-[27rem] mt-[35rem] lg:mt-0 max-w-sm lg:max-w-full">
       <section id="footer">
-        <img src="/assets/logo.png" alt="logo" className="p-5 ml-[5rem]" />
-        <div className="flex">
-          <p className="max-w-xl text-justify ml-[6rem] mb-[5px]">
+        <img
+          src="/assets/logo.png"
+          alt="logo"
+          className="p-2 lg:p-5 lg:ml-[5rem]"
+        />
+        <div className="lg:flex">
+          <p className="lg:max-w-xl text-justify lg:ml-[6rem] mb-[5px] text-sm lg:text-base">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -19,21 +23,21 @@ const Footer = () => {
             PageMakers including versions of Lorem Ipsum.
           </p>
 
-          <div className="ml-[48rem] cursor-pointer">
+          <div className="lg:ml-[48rem] cursor-pointer">
             <h1 className="font-bold mb-[20px]">Dúvidas</h1>
             <p>Sede</p>
             <p>Plataforma</p>
             <p>Entregas</p>
           </div>
 
-          <div className="ml-[40px] cursor-pointer">
+          <div className="lg:ml-[40px] cursor-pointer">
             <h1 className="font-bold mb-[20px]">Orçamento</h1>
             <p>Aparelhos</p>
             <p>Sites</p>
             <p>Serviços</p>
           </div>
 
-          <div className="ml-[40px] cursor-pointer">
+          <div className="lg:ml-[40px] cursor-pointer">
             <h1 className="font-bold mb-[20px]">Contato</h1>
             <p>E-mail</p>
             <p>Telefone</p>
@@ -41,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex justify-end mr-[5rem] cursor-pointer">
+        <div className="flex lg:justify-end mr-[5rem] cursor-pointer">
           <p className="mr-4">
             Brasil <ReactCountryFlags countryCode="BR" svg />
           </p>

@@ -5,7 +5,7 @@ import Contact from "../Contact/Contact";
 const Home = () => {
   return (
     <div>
-      <div className="bg-cyan-500 lg:flex h-[50rem] lg:h-[53rem]">
+      <div className="bg-cyan-500 lg:flex h-[50rem] lg:h-[53rem] max-w-sm lg:max-w-full">
         <div>
           <img
             src="/assets/foto-1.png"
@@ -49,7 +49,7 @@ const Home = () => {
 
       <a
         href="https://wa.me/5535991255868?text=Quero%20te%20contratar!KKKKKKKK"
-        className="fixed w-[60px] h-[60px] bottom-10 right-10 bg-green-500 rounded-full text-center shadow-2xl"
+        className="fixed w-[60px] h-[60px] bottom-10 right-60 lg:right-10 bg-green-500 rounded-full text-center shadow-2xl"
       >
         <img src="/assets/wpp.png" className="mt-[10px]" />
       </a>

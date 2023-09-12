@@ -4,12 +4,16 @@ const Methods = () => {
   return (
     <div>
       <section id="methods">
-        <div className="flex bg-orange-300">
-          <img src="/assets/foto-4.png" alt="company" className="mb-40" />
+        <div className="lg:flex bg-orange-300 h-[100rem] lg:h-[59rem] max-w-sm lg:max-w-full">
+          <img
+            src="/assets/foto-4.png"
+            alt="company"
+            className="mb-10 lg:mb-40"
+          />
 
-          <div className="m-auto max-w-4xl">
-            <div className="flex">
-              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-5">
+          <div className="m-auto lg:max-w-4xl">
+            <div className="lg:flex">
+              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-7 lg:mr-5 ml-1 lg:ml-0 mt-5 lg:mt-0">
                 <img
                   src="/assets/icone-1.png"
                   alt="company"
@@ -22,7 +26,7 @@ const Methods = () => {
                 </h1>
               </div>
 
-              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-5">
+              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-7 lg:mr-5 ml-1 lg:ml-0 mt-5 lg:mt-0">
                 <img
                   src="/assets/icone-2.png"
                   alt="company"
@@ -35,7 +39,7 @@ const Methods = () => {
                 </h1>
               </div>
 
-              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-5">
+              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-7 lg:mr-5 ml-1 lg:ml-0 mt-5 lg:mt-0">
                 <img
                   src="/assets/icone-3.png"
                   alt="company"
@@ -49,8 +53,8 @@ const Methods = () => {
               </div>
             </div>
 
-            <div className="flex mt-20">
-              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-5">
+            <div className="lg:flex mt-5 lg:mt-20">
+              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-7 lg:mr-5 ml-1 lg:ml-0 mt-5 lg:mt-0">
                 <img
                   src="/assets/icone-4.png"
                   alt="company"
@@ -63,7 +67,7 @@ const Methods = () => {
                 </h1>
               </div>
 
-              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-5">
+              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-7 lg:mr-5 ml-1 lg:ml-0 mt-5 lg:mt-0">
                 <img
                   src="/assets/icone-5.png"
                   alt="company"
@@ -75,7 +79,7 @@ const Methods = () => {
                   standard dummy text ever since the 1500s.
                 </h1>
               </div>
-              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-5">
+              <div className="zoom p-5 shadow-2xl rounded-lg bg-white mr-7 lg:mr-5 ml-1 lg:ml-0 mt-5 lg:mt-0">
                 <img
                   src="/assets/icone-4.png"
                   alt="company"

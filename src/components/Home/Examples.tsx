@@ -4,13 +4,13 @@ const Examples = () => {
   return (
     <div>
       <section id="examples">
-        <div className="h-[60rem]">
-          <h1 className="text-5xl text-center p-10 font-bold mt-[20px]">
+        <div className="h-[60rem] max-w-sm lg:max-w-full">
+          <h1 className="text-4xl lg:text-5xl text-center p-10 font-bold mt-[20px]">
             O melhor design para o site da sua empresa!
           </h1>
 
-          <div className="flex mt-[10rem] max-w-7xl m-auto justify-center space-x-8">
-            <div className="flex flex-col rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)] h-[25rem] w-[25rem]">
+          <div className="lg:flex lg:mt-[10rem] lg:max-w-7xl m-auto justify-center space-x-8">
+            <div className="flex flex-col rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)] h-[25rem] w-[20rem] lg:w-[25rem] ml-[30px] lg:ml-0">
               <div className="px-6 py-8 sm:p-10 sm:pb-6">
                 <div className="grid items-center justify-center w-full grid-cols-1 text-left">
                   <div>
@@ -43,7 +43,7 @@ const Examples = () => {
                 </div>
               </div>
 
-              <div className="flex px-6 pb-8 sm:px-8 ">
+              <div className="flex px-6 pb-8 sm:px-8">
                 <a
                   aria-describedby="tier-company"
                   className="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-black rounded-full nline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black"
@@ -53,7 +53,7 @@ const Examples = () => {
                 </a>
               </div>
             </div>
-            <div className="flex flex-col 0 rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)] h-[25rem] w-[25rem]">
+            <div className="flex flex-col 0 rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)] h-[25rem] w-[20rem] lg:w-[25rem] ml-[30px] lg:ml-0 mt-10 lg:mt-0 ">
               <div className="px-6 py-8 sm:p-10 sm:pb-6">
                 <div className="grid items-center justify-center w-full grid-cols-1 text-left">
                   <div>
@@ -96,7 +96,7 @@ const Examples = () => {
               </div>
             </div>
 
-            <div className="flex flex-col  rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)] h-[25rem] w-[25rem]">
+            <div className="flex flex-col  rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)] h-[25rem] w-[20rem] lg:w-[25rem] ml-[30px] lg:ml-0 mt-10 lg:mt-0">
               <div className="px-6 py-8 sm:p-10 sm:pb-6">
                 <div className="grid items-center justify-center w-full grid-cols-1 text-left">
                   <div>
