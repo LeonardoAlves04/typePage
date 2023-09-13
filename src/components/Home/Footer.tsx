@@ -37,7 +37,7 @@ const Footer = () => {
             <p>Serviços</p>
           </div>
 
-          <div className="lg:ml-[40px] cursor-pointer">
+          <div className=" lg:ml-[40px] cursor-pointer">
             <h1 className="font-bold mb-[20px]">Contato</h1>
             <p>E-mail</p>
             <p>Telefone</p>

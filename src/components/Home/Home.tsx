@@ -5,7 +5,7 @@ import Contact from "../Contact/Contact";
 const Home = () => {
   return (
     <div>
-      <div className="bg-cyan-500 lg:flex h-[50rem] lg:h-[53rem] max-w-sm lg:max-w-full">
+      <div className="bg-cyan-500 lg:flex h-[50rem] lg:h-[53rem] lg:max-w-full">
         <div>
           <img
             src="/assets/foto-1.png"
