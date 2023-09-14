@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="bg-cyan-500 flex justify-between max-w-[80%] lg:max-w-full">
+    <div className="bg-cyan-500 flex justify-between max-w-[100%] lg:max-w-full">
       <img
         src="/assets/logo.png"
         alt="logo"
